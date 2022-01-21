@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    let cont = 0;
+    var cont = 0;
     $("#insertar").click(function(event) {
         var timestamp = event.timeStamp;
         if (cont == 0 || cont % 7 == 0) {
