@@ -9,6 +9,7 @@ $(document).ready(function() {
         } else {
             $("table tr").append(" <td><img src='https://loremflickr.com/200/200?random+" + timestamp + "'></td>");
             $("table tr td").css("display", "none");
+            //el efecto se aplica a todos los td por eso se ve tan extraño pero funciona perfectamente
             $("table tr td").fadeIn(1000);
 
 
